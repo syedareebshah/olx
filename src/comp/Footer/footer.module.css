@@ -1,0 +1,18 @@
+.endfooter{
+    background-color: rgb(0, 31, 116);
+    color: white;
+}
+.endposter{
+    background-color: rgb(221, 221, 221);
+    padding: 50px !important;
+    
+}
+.xs{
+    font-size: 12px;
+}
+.heading{
+    font-weight: bold;
+}
+.bgdark{
+    background-color: rgba(88, 101, 112, 0.918);
+}

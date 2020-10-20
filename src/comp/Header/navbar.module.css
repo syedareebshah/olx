@@ -1,0 +1,48 @@
+.logo{
+    width: 70px;
+}
+.input1{
+    width: 250px !important;
+    color: black;
+}
+.input2{
+    margin-left: 10px;
+    width: 750px !important;
+}
+@media only screen and (max-width: 600px) {
+    .input2 {
+      width: 250px !important;
+      margin: 10px;
+      margin-left: 0px;
+    }
+  }
+  @media only screen and (max-width: 1025px) {
+    .input2 {
+      width: 400px !important;
+      margin: 10px;
+      margin-left: 0px;
+      
+    }
+  }  
+  
+
+.btn{
+    width: 50px;
+}
+.navbarLogin{
+    color: black !important;
+    font-weight: bold !important;
+    text-decoration: underline;
+    
+}
+.sellBtn{
+    border-radius: 50px !important;
+    border: 3px solid black !important;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    box-shadow: 0,0,0,2px;
+}
+.left{
+    margin-right: 20px;
+}
