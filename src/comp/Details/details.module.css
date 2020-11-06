@@ -1,0 +1,33 @@
+.card{
+    display: flex;
+}
+.pic{
+    width:65%;
+    margin: 40px 20px 30px 20px;
+}
+.hr{
+    width: 90%;
+}
+.right{
+    width: 35%;
+    margin: 40px 20px 10px 20px;
+
+}
+.subRight{
+    margin-top: 10px;
+}
+.btn{
+    width: 100%;
+    align-items: center;
+}
+@media screen and (max-width: 500px) {
+    .card {
+      display: flex;
+      flex-direction: column;
+    }
+    .pic,.right{
+        width: 100%;
+        padding: 40px 20px 0px 20px;
+    }
+    
+  }

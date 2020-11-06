@@ -8,7 +8,7 @@ function Header() {
         <div>
             <Navbar bg="light" expand="lg">
                 <Navbar.Brand href="#home">
-                    <img className={style.logo} src={pic} alt="" />
+                    <img className={style.logo} src={pic}  alt="Picture" />
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">

@@ -14,11 +14,8 @@ function App() {
       <Ribbon />
       <Banner />
       <Product />
-      <Footer />
-    
-     
       
-      
+      <Footer /> 
     </div>
   )
 }
