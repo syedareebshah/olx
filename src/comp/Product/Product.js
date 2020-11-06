@@ -21,7 +21,6 @@ function Product() {
     return (
         <div className={style.card} >
             <h2>
-            
                 Based on your last search
             </h2>
             
