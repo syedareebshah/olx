@@ -1,15 +1,22 @@
 import React from 'react';
 import style from './details.module.css'
-import { Link } from "react-router-dom";
 import { Card, Carousel, Button } from 'react-bootstrap'
 import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
 import Ribbon from '../Ribbon/Ribbon';
 
 
+
+
+
 function Details() {
+    
+    
+    
     return (
         <div>
+            
+    
             <Header />
             <Ribbon />
             <div className={style.card} >

@@ -7,13 +7,18 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Details from './comp/Details/Details'
 
+
+
 ReactDOM.render(
-  <Router>
+  
+    <Router>
     <Routes>
       <Route exect path="/" element={<App />} />
       <Route path="/details" element={<Details />} />
     </Routes>
-  </Router>,
+  </Router>
+
+  ,
   document.getElementById('root')
 );
 
