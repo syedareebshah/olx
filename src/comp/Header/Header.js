@@ -2,6 +2,7 @@ import React from 'react';
 import { Navbar, Form,  Button, Nav } from 'react-bootstrap';
 import pic from './pic.png';
 import style from './navbar.module.css';
+import { Link } from "react-router-dom";
 
 function Header() {
     return (
@@ -25,7 +26,9 @@ function Header() {
                     <Form className={style.left} inline>
 
                     <Button onClick={()=> alert("No Login Required\nGo to Sell Button To Sell")}  className={style.navbarLogin} variant="link">Login</Button>
-                    <Button onClick={()=>console.log("running")} className={style.sellBtn} variant="danger">+SELL</Button>
+                    <Button className={style.sellBtn} variant="danger">
+                    <Link to="/form">+Sell </Link>
+                        </Button>
                         
                     </Form>
                 </Navbar.Collapse>

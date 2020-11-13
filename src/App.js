@@ -8,19 +8,18 @@ import Footer from './comp/Footer/Footer'
 import {Provider} from 'react-redux';
 import store from './store';
 import Details from './comp/Details/Details'
+import Form from './comp/Form/Form'
 
 
 function App() {
   
   return (
     <div>
-    <Provider store={store}> 
       <Header />
       <Ribbon  />
       <Banner />
       <Product />
-      <Footer />
-    </Provider>   
+      <Footer /> 
     </div>
   )
 }

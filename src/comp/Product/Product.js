@@ -2,15 +2,17 @@ import React from 'react';
 import { Card, Row,Button } from 'react-bootstrap'
 import style from './product.module.css'
 import { Link } from "react-router-dom";
-import { connect } from 'react-redux';
-// import { set_data } from '../../store/actions/index'
+import { useSelector } from 'react-redux';
 
 
 function Product(props) {
 
-    console.log("Haye", props.products, )
     
-    let objects = props.products
+    
+    
+    const products = useSelector(state => state.thingToAdd )
+    
+    let objects = products
 
     return (
         
@@ -41,12 +43,12 @@ function Product(props) {
 
 
 
-const mapStateToProps = (state) =>({
-    products: state.thingToAdd,
-    
-})
+// const mapStateToProps = (state) =>({
+//     products: state.thingToAdd,
+//     user: state.userData
+// })
 
 // const mapDispatchToProp = (dispatch) =>({
 //     set_data : (data)=> dispatch(set_data(data))
 // })
-export default connect(mapStateToProps,null)(Product);
+export default Product;

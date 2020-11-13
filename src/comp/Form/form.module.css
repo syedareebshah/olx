@@ -1,0 +1,11 @@
+.body{
+    max-width: 300px;
+    margin: 0 auto;
+    
+}
+input,textarea{
+    width: 250px;
+}
+.head,h6{
+    text-align: center;
+}
