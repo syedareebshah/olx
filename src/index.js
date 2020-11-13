@@ -9,6 +9,9 @@ import Details from './comp/Details/Details'
 import Form from './comp/Form/Form.js';
 import { Provider } from 'react-redux';
 import store from './store';
+import SingleProduct from './comp/Prectice/SingleProduct';
+
+
 
 
 
@@ -19,6 +22,7 @@ ReactDOM.render(
       <Route exect path="/" element={<App />} />
       <Route path="/form" element={<Form />} />
       <Route path="/details" element={<Details />} />
+      <Route element={<SingleProduct/>} path='/:name' />
     </Routes>
   </Router>
   </Provider>

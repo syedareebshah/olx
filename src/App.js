@@ -5,10 +5,9 @@ import Ribbon from './comp/Ribbon/Ribbon'
 import Banner from './comp/Banner/Banner'
 import Product from './comp/Product/Product'
 import Footer from './comp/Footer/Footer'
-import {Provider} from 'react-redux';
-import store from './store';
-import Details from './comp/Details/Details'
-import Form from './comp/Form/Form'
+import SingleProduct from './comp/Prectice/SingleProduct';
+
+
 
 
 function App() {

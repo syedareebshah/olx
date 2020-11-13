@@ -28,15 +28,14 @@ function Product(props) {
                                 <Card.Body key={ind} >
                                     <img height="200px" width="250px" src={obj.imgUrl}  alt="Picture" />
                                     <Card.Title> Rs {obj.price}</Card.Title>
-                                    <Card.Subtitle className="mb-2 text-muted">{obj.desc}</Card.Subtitle>
-                                    <Button><Link className={style.btn} to="/details">Details</Link></Button>
+                                    <Card.Subtitle className="mb-2 text-muted">{obj.name}</Card.Subtitle>
+                                    <Link to={`/${obj.name}`}><Button variant="primary">SHOW DETAIL</Button></Link>
                                 </Card.Body>    
                             </Card>
                         </div>
                     )
                 })}            
             </Row>
-            {/* <Button onClick={()=>props.set_data("mera data")}>HYYY</Button> */}
         </div>
     )
 }
